@@ -1,0 +1,108 @@
+/* Custom CSS for a more elaborate design with glow animation */
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+}
+
+/* Card styles */
+.my-card {
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.my-card:hover {
+    transform: scale(1.05);
+}
+
+/* Header styles */
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}
+
+/* Form styles */
+.form-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-59 {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 25px; /* Rounded corners */
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-59:focus {
+    color: #171e29;
+}
+
+.button-59:hover {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+}
+
+.button-59:active {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+}
+
+@media (min-width: 768px) {
+    .button-59 {
+        min-width: 170px;
+    }
+}
